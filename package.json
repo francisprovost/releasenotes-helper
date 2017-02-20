@@ -4,9 +4,12 @@
   "description": "Generate a basic markdown for the releases",
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine-node": "^1.14.5"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "istanbul cover --include-all-sources jasmine-node ."
   },
   "repository": {
     "type": "git",
