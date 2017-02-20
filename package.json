@@ -1,0 +1,21 @@
+{
+  "name": "releasenotes-helper",
+  "version": "0.0.1",
+  "description": "Generate a basic markdown for the releases",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francisprovost/releasenotes-helper.git"
+  },
+  "author": "Francis Provost <francis.provost@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francisprovost/releasenotes-helper/issues"
+  },
+  "homepage": "https://github.com/francisprovost/releasenotes-helper#readme"
+}
