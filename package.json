@@ -5,11 +5,14 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "chai": "^3.5.0",
     "istanbul": "^0.4.5",
-    "jasmine-node": "^1.14.5"
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0"
   },
   "scripts": {
-    "test": "istanbul cover --include-all-sources jasmine-node ."
+    "start": "node index.js",
+    "test": "istanbul cover --include-all-sources node_modules/.bin/_mocha './api/**/*.spec.js' './services/**/*.spec.js'"
   },
   "repository": {
     "type": "git",
